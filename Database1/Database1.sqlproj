@@ -13,8 +13,8 @@
     </RootPath>
     <RootNamespace>Database1</RootNamespace>
     <AssemblyName>Database1</AssemblyName>
-    <ModelCollation>1033, CI</ModelCollation>
-    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <ModelCollation>1033,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetLanguage>CS</TargetLanguage>
@@ -22,6 +22,8 @@
     <SqlServerVerification>False</SqlServerVerification>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -56,5 +58,46 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Tables\" />
+    <Folder Include="Views\" />
+    <Folder Include="Stored Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Orders_1.sql" />
+    <Build Include="Tables\Products_1.sql" />
+    <Build Include="Tables\Order Details_1.sql" />
+    <Build Include="Tables\CustomerCustomerDemo_1.sql" />
+    <Build Include="Tables\CustomerDemographics_1.sql" />
+    <Build Include="Tables\Region_1.sql" />
+    <Build Include="Tables\Territories_1.sql" />
+    <Build Include="Tables\EmployeeTerritories_1.sql" />
+    <Build Include="Tables\Employees_1.sql" />
+    <Build Include="Tables\Categories_1.sql" />
+    <Build Include="Tables\Customers_1.sql" />
+    <Build Include="Tables\Shippers_1.sql" />
+    <Build Include="Tables\Suppliers_1.sql" />
+    <Build Include="Views\Customer and Suppliers by City_1.sql" />
+    <Build Include="Views\Alphabetical list of products_1.sql" />
+    <Build Include="Views\Current Product List_1.sql" />
+    <Build Include="Views\Orders Qry_1.sql" />
+    <Build Include="Views\Products Above Average Price_1.sql" />
+    <Build Include="Views\Products by Category_1.sql" />
+    <Build Include="Views\Quarterly Orders_1.sql" />
+    <Build Include="Views\Invoices_1.sql" />
+    <Build Include="Views\Order Details Extended_1.sql" />
+    <Build Include="Views\Order Subtotals_1.sql" />
+    <Build Include="Views\Product Sales for 1997_1.sql" />
+    <Build Include="Views\Category Sales for 1997_1.sql" />
+    <Build Include="Views\Sales by Category_1.sql" />
+    <Build Include="Views\Sales Totals by Amount_1.sql" />
+    <Build Include="Views\Summary of Sales by Quarter_1.sql" />
+    <Build Include="Views\Summary of Sales by Year_1.sql" />
+    <Build Include="Stored Procedures\Ten Most Expensive Products_1.sql" />
+    <Build Include="Stored Procedures\Employee Sales by Country_1.sql" />
+    <Build Include="Stored Procedures\Sales by Year_1.sql" />
+    <Build Include="Stored Procedures\CustOrdersDetail_1.sql" />
+    <Build Include="Stored Procedures\CustOrdersOrders_1.sql" />
+    <Build Include="Stored Procedures\CustOrderHist_1.sql" />
+    <Build Include="Stored Procedures\SalesByCategory_1.sql" />
   </ItemGroup>
 </Project>
