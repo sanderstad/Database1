@@ -1,0 +1,88 @@
+10/06/2022 11:08:36	This log contains information about the import schema operation into project 'Database1' on computer 'DMSWECLP05' by user 'Sander'.
+10/06/2022 11:08:38	Import of database schema has started.
+10/06/2022 11:08:40	Gathering database credentials
+10/06/2022 11:08:40	Gathering database options
+10/06/2022 11:08:40	Gathering generic database scoped configuration option
+10/06/2022 11:08:40	Gathering users
+10/06/2022 11:08:40	Gathering roles
+10/06/2022 11:08:40	Gathering application roles
+10/06/2022 11:08:40	Gathering role memberships
+10/06/2022 11:08:40	Gathering filegroups
+10/06/2022 11:08:40	Gathering full-text catalogs
+10/06/2022 11:08:40	Gathering assemblies
+10/06/2022 11:08:40	Gathering certificates
+10/06/2022 11:08:40	Gathering asymmetric keys
+10/06/2022 11:08:40	Gathering symmetric keys
+10/06/2022 11:08:40	Gathering encrypted symmetric keys
+10/06/2022 11:08:40	Gathering schemas
+10/06/2022 11:08:40	Gathering XML schema collections
+10/06/2022 11:08:40	Gathering user-defined data types
+10/06/2022 11:08:40	Gathering user-defined types
+10/06/2022 11:08:40	Gathering table types
+10/06/2022 11:08:40	Gathering unique keys for table types
+10/06/2022 11:08:40	Gathering primary keys for table types
+10/06/2022 11:08:40	Gathering indexes for table types
+10/06/2022 11:08:40	Gathering check constraints for table types
+10/06/2022 11:08:40	Gathering default constraints for table types
+10/06/2022 11:08:40	Gathering partition functions
+10/06/2022 11:08:40	Gathering partition schemes
+10/06/2022 11:08:40	Gathering functions
+10/06/2022 11:08:40	Gathering encrypted functions
+10/06/2022 11:08:40	Gathering aggregates
+10/06/2022 11:08:40	Gathering procedures
+10/06/2022 11:08:40	Gathering encrypted procedures
+10/06/2022 11:08:40	Gathering tables
+10/06/2022 11:08:40	Gathering primary keys
+10/06/2022 11:08:40	Gathering unique constraints
+10/06/2022 11:08:40	Gathering foreign keys
+10/06/2022 11:08:40	Gathering default constraints
+10/06/2022 11:08:40	Gathering check constraints
+10/06/2022 11:08:40	Gathering views
+10/06/2022 11:08:40	Gathering encrypted views
+10/06/2022 11:08:40	Gathering indexes
+10/06/2022 11:08:40	Gathering statistics
+10/06/2022 11:08:40	Gathering full-text index stoplists
+10/06/2022 11:08:40	Gathering search property lists
+10/06/2022 11:08:40	Gathering search properties
+10/06/2022 11:08:40	Gathering full-text indexes
+10/06/2022 11:08:40	Gathering column store indexes
+10/06/2022 11:08:40	Gathering spatial indexes
+10/06/2022 11:08:40	Gathering XML indexes
+10/06/2022 11:08:40	Gathering Selective XML indexes
+10/06/2022 11:08:40	Gathering encrypted triggers
+10/06/2022 11:08:40	Gathering triggers
+10/06/2022 11:08:40	Gathering encrypted and clr ddl triggers
+10/06/2022 11:08:40	Gathering ddl triggers
+10/06/2022 11:08:40	Creating edge constraints
+10/06/2022 11:08:40	Gathering synonyms
+10/06/2022 11:08:40	Gathering defaults
+10/06/2022 11:08:40	Gathering data constraint uddt bindings
+10/06/2022 11:08:40	Gathering rules
+10/06/2022 11:08:40	Gathering data constraint uddt bindings
+10/06/2022 11:08:40	Gathering message types
+10/06/2022 11:08:40	Gathering queues
+10/06/2022 11:08:40	Gathering contracts
+10/06/2022 11:08:40	Gathering services
+10/06/2022 11:08:40	Gathering event notifications
+10/06/2022 11:08:40	Gathering remote service bindings
+10/06/2022 11:08:40	Gathering broker priorities
+10/06/2022 11:08:40	Gathering signatures
+10/06/2022 11:08:40	Gathering data compression options
+10/06/2022 11:08:40	Gathering sequence types
+10/06/2022 11:08:40	Gathering security policies
+10/06/2022 11:08:40	Gather column encryption keys
+10/06/2022 11:08:40	Gathering column master keys
+10/06/2022 11:08:40	Gathering external data sources
+10/06/2022 11:08:40	Gathering external file formats
+10/06/2022 11:08:40	Gathering external tables
+10/06/2022 11:08:40	Gathering extended properties
+10/06/2022 11:08:40	Gathering assemblies
+10/06/2022 11:08:40	Gathering credentials
+10/06/2022 11:08:40	Gathering logins
+10/06/2022 11:08:40	Gathering server audits
+10/06/2022 11:08:41	An exception was encountered while attempting to retrieve the default data path: ''.  As a result, absolute paths may appear in ADD FILE statements.
+10/06/2022 11:08:41	Scanning project for duplicate elements
+10/06/2022 11:08:45	Finished duplicate element processing
+10/06/2022 11:09:00	Finished importing database.
+10/06/2022 11:09:00	A summary of the import was saved to the following location: C:\temp\Database1\Database1\Import Schema Logs\Database1_20220610090836.log
+10/06/2022 11:09:00	Click Finish to continue...
